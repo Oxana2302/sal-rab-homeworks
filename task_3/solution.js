@@ -8,8 +8,8 @@ function renderCartItem(item) {
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
     // id - идентификатор
     // title - наименование
-    // price - цена
-    // count - количество
+  price = '500.00';  // price - цена
+  count = 5;  // count - количество
 
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
